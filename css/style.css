@@ -85,7 +85,7 @@ a:active, a:focus {
 
 /* Navigasi */
 .navigasi {
-    position: absolute;
+    position: fixed;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -105,6 +105,42 @@ a:active, a:focus {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+
+.hamburgermenu {
+    display: none;
+    height: 30px;
+}
+
+.hamburgermenu:hover {
+    cursor: pointer;
+}
+.hamburgermenu span {
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #FFF;
+    transition: all 0.5s;
+}
+
+.hamburgermenu span:nth-child(1) {
+    transform-origin: 0 0;
+}
+
+.hamburgermenu span:nth-child(3) {
+    transform-origin: 0 100%;
+}
+
+.rotateTop {
+    transform: rotate(45deg);
+}
+
+.hide{
+    transform: scale(0);
+}
+
+.rotateBottom {
+    transform: rotate(-45deg);
 }
 
 .list {
@@ -542,7 +578,6 @@ a:active, a:focus {
 }
 
 
-
 .wrapper-sec5 {
     height: 100%;
 }
@@ -552,11 +587,15 @@ a:active, a:focus {
     height: 50px;
     background-color: #191919;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
     line-height: 50px;
-    padding-left: 20px;
 }
 
 .footer span {
     color: #7E7E7E;
+    padding-left: 50px;
+}
+.footer a {
+    color: #7E7E7E;
+    margin-right: 50px;
 }

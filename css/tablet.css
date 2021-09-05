@@ -1,0 +1,85 @@
+/* Mobile */
+@media only screen and (max-width:768px) {
+    .navigasi {
+        position: relative;
+    }
+    .box-center {
+        width: 80%;
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
+    }
+    .box-logo {
+        position: relative;
+        left: 0;
+        top: 0;
+        z-index: -2;
+        transform: none;
+    }
+    .logo {
+        height: 35px;
+        width: 70px;
+    }
+    .hamburgermenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }    
+
+    .list {
+        padding-top: 20px;
+        background-color: #222;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+
+    .slide {
+        transform: translateX(0);
+    }   
+
+    .list li {
+        float: none;
+        width: 70%;
+    }
+    .list li:nth-child(1) {float: none;}
+    .list li:nth-child(2) {float: none;}
+    .list li:nth-child(3) {float: none;}
+
+    .home-content h1 {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+    .home-content table {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+
+    .home-content td {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-right: solid 1px rgb(168, 168, 168);
+    }
+
+    .home-content h2{
+        font-size: 14px;
+    }
+
+    .home-content span{
+        font-size: 12px;
+    }
+
+}
