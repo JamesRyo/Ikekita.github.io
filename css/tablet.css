@@ -28,8 +28,8 @@
   }
 
   .list {
-    padding-top: 20px;
-    background-color: #222;
+    padding-top: 50px;
+    background-color: #222222;
     position: absolute;
     z-index: -1;
     left: 0;
@@ -39,7 +39,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     transform: translateX(100%);
     transition: all 1s;
@@ -50,17 +50,7 @@
   }
 
   .list li {
-    float: none;
     width: 70%;
-  }
-  .list li:nth-child(1) {
-    float: none;
-  }
-  .list li:nth-child(2) {
-    float: none;
-  }
-  .list li:nth-child(3) {
-    float: none;
   }
 
   .home {
@@ -92,7 +82,7 @@
     font-size: 12px;
   }
 
-  /* service */
+  /* portfolio */
   .portfolio-card {
     width: 100%;
     margin: 15px 0px;

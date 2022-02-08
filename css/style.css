@@ -144,6 +144,11 @@ a:focus {
   text-align: center;
   color: #fff;
   z-index: 2;
+  transition: 0.5s;
+}
+
+.nav-active {
+  background-color: #2e2e2e;
 }
 
 .box-center {
@@ -316,7 +321,7 @@ a:hover {
 }
 
 .portfolio-wrap {
-  width: 100%;
+  display: flex;
 }
 
 .portfolio-card {
@@ -326,9 +331,7 @@ a:hover {
   border-radius: 20px;
   box-shadow: 1px 2px 1px 2px #2c2c2c;
   display: inline-block;
-  margin: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 15px;
   overflow: hidden;
 }
 
@@ -343,11 +346,14 @@ a:hover {
 
 .port-ico {
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .port-ico img {
   margin-right: 10px;
   max-height: 25px;
+  max-width: 25px;
 }
 
 .photo-port {
@@ -360,7 +366,7 @@ a:hover {
 }
 
 .mock-mobile {
-  width: 170px;
+  max-width: 170px;
   height: 300px;
 }
 
@@ -549,7 +555,8 @@ a:hover {
 }
 
 .cont-list .flex {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
 }
 
 .flex > span {
