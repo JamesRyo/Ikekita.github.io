@@ -1,10 +1,12 @@
-new fullScroll({
-    mainElement: "main",
-    displayDots: true,
-    dotsPosition: "right",
-    animateTime: 0.7,
-    animateFunction: "ease",
-});
+if ($(window).width() > 768) {
+    new fullScroll({
+        mainElement: "main",
+        displayDots: true,
+        dotsPosition: "right",
+        animateTime: 0.7,
+        animateFunction: "ease",
+    });
+}
 
 feather.replace()
 
