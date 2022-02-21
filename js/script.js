@@ -4,30 +4,35 @@ $(".owl-carousel").owlCarousel({
   responsiveClass: true,
   mouseDrag: true,
   tochDrag: true,
-
+  merge: true,
   responsive: {
     0: {
       items: 1,
       nav: false,
+      mergeFit: true,
     },
     640: {
       items: 1,
       nav: false,
+      mergeFit: true,
     },
     768: {
       items: 2,
       nav: false,
       loop: false,
+      mergeFit: true,
     },
     1024: {
       items: 3,
       navElement: true,
       loop: false,
+      mergeFit: true,
     },
     1200: {
       items: 4,
       navElement: true,
       loop: false,
+      mergeFit: true,
     },
   },
 });

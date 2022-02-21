@@ -92,6 +92,14 @@
     width: 100%;
   }
 
+  .web-port {
+    width: 100%;
+  }
+
+  .mock-web {
+    max-width: 90%;
+  }
+
   .about-wrapper {
     padding-top: 40px;
     flex-direction: column-reverse;

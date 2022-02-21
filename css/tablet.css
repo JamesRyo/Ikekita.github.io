@@ -88,6 +88,15 @@
     margin: 15px 0px;
   }
 
+  .web-port {
+    width: 100%;
+  }
+
+  .mock-web {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+
   /* service */
   .service-card {
     width: 100%;
@@ -128,6 +137,28 @@
     width: 100%;
   }
 
+  /* Why Me */
+  .work-flow {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .image-workflow {
+    margin-bottom: 60px;
+  }
+
+  .wf-right {
+    flex-direction: column;
+  }
+
+  .wf-right .desc-workflow {
+    text-align: center;
+  }
+
+  .desc-workflow {
+    text-align: center;
+  }
+
   /* contact */
 
   .cont-left {
@@ -157,5 +188,10 @@
   }
   .icon {
     width: 15px;
+  }
+
+  .footer-up {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
