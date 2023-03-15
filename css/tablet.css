@@ -25,12 +25,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
+    top: 20px;
   }
 
   .list {
     padding-top: 50px;
     background-color: #222222;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     left: 0;
     top: 0;
